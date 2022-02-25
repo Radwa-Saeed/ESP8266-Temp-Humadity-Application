@@ -1,4 +1,5 @@
 # ESP8266-Temp-Humadity-Application
+![](./img/00.png)
 ## Task Statement
  ESP chip is a microcontroller chip with a wireless module ready for wireless communication. Use this chip to develop the below requirements:
 1.  Connect any two sensors (e.g. temperature and pressure) to the ESP.
@@ -7,3 +8,10 @@
 4.  The saved data on this server can be visualized on either a desktop software (might well be the server itself), or mobile app (feel free to choose which mobile OS you like to use). So in brief, I need to see the signal drawn and updated on some graph on a computer screen or mobile screen.
 Note: The above "or" is for the user/customer, not the developer (i.e. YOU!). For the developer, this  "or" option means it's an  "and". i.e. you need to develop both features.
 5.  Instead of hard-coding the wifi connection info in the ESP code, give the user the flexibility to choose which wireless network s/he wants to connect to. i.e. show the user the surrounding wireless network names and he can choose one of them to connect to. You can view the names on either a small LCD or even on the ESP serial port.
+
+### Steps:
+1.  Setting up Nodejs server[📌](https://github.com/Radwa-Saeed/IOT-ESP-MERN-APP/tree/main/Server)
+2.  Deploying Nodejs server to heroku
+3.  Reading DHT11 sensor value using Esp8266[📌](https://github.com/Radwa-Saeed/IOT-ESP-MERN-APP/tree/main/DHT-ESP8266)
+4.  Sending data to Nodejs server
+5. Creating Mobile and Web app to visualize the data

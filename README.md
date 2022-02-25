@@ -1,5 +1,5 @@
 # ESP8266-Temp-Humadity-Application
-##Task Statement
+## Task Statement
  ESP chip is a microcontroller chip with a wireless module ready for wireless communication. Use this chip to develop the below requirements:
 1.  Connect any two sensors (e.g. temperature and pressure) to the ESP.
 2.  The sensors readings should be transferred through WiFi to some server and saved in real time into some sql database on that server.

@@ -1,0 +1,35 @@
+.button{
+    background-color: #8525df;
+    border: none;
+  color: white;
+  padding: 15px 32px;
+  width: 180px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 30px;
+}
+.container{
+    margin: 15px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    
+
+}
+.graph{
+    width: 100%;
+   
+}
+.col1{
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col2{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
